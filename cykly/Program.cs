@@ -6,13 +6,13 @@ namespace cykly
     {
         static void Main(string[] args)
         {
-            // 1 varianta
-            int cislo = 1;
+            // 1 varianta (sudá čísla)
+            int cislo = 2;
 
             while(cislo < 100)
             {
                 Console.WriteLine(cislo);
-                cislo++;
+                cislo+=2;
             }
             Console.ReadLine();
 
